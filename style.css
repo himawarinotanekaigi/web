@@ -121,7 +121,7 @@ header .sns img{
 header .author{
   width: 90%;
   padding-left: 5%;
-  padding-top: 20px;
+  padding-top: 0px;
   padding-bottom: 20px;
 }
 header .author p{
@@ -135,13 +135,13 @@ header .author ul li{
 }
 header .author ul img{
   height: 80px;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 header .author ul p{
   font-size: 12px;
   font-family: CENTURY;
   color: #e3d7a3;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 header .author .author_name{
   width: 120px;
