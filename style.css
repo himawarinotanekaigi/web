@@ -482,6 +482,7 @@ main .prologue p{
     height: auto;
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 50px;
   }
   main .news h2{
     padding-top: 50px;
@@ -495,9 +496,10 @@ main .prologue p{
     list-style: none outside;
     margin: 0;
     padding: 0;
-    padding-bottom: 50px;
+
   }
   main .news .news-list .item a{
+    display: flex;
     flex-wrap: wrap;
     flex-wrap: nowrap;
     text-decoration: none;
@@ -506,7 +508,6 @@ main .prologue p{
     font-family: serif;
     border-bottom: 1px solid #808080;
     border-top: 1px solid #808080;
-
     padding: 20px 20px;
   }
   main .news .news-list .item .date{
@@ -539,6 +540,10 @@ main .prologue p{
   main .news .news-list .item a:hover .title{
     color: #606060;
   }
+
+.news-list .item:first-child a{
+  border-top: 1px solid #CCC;
+}
 }
 @media screen and (max-width:1067.98px){
   h2{
@@ -1276,8 +1281,13 @@ footer{
   main .blank{
     display: none;
   }
+  footer .logo4 img{
+    padding-top: 20vh;
+    width: 70%;
+  }
+
 }
 footer .logo4 img{
-  padding-top: 20vh;
-  width: 70%;
+  padding-top: 45vh;
+  width: 40%;
 }
