@@ -3,6 +3,9 @@
   padding: 0;
   margin: 0;
 }
+h1{
+  display: none;
+}
 header .header{
   width: 40vw;
   height: 100vh;
