@@ -547,7 +547,7 @@ main .prologue p{
 }
 @media screen and (max-width:1067.98px){
   h2{
-    font-size: 25px;
+    font-size: 20px;
     padding-top: 50px;
     padding-bottom: 50px;
     letter-spacing: 14px;
@@ -584,30 +584,19 @@ main .prologue p{
   main .news .news-list .item .date{
     margin: 0;
     min-width: 140px;
-    font-size: 17px;
+    font-size: 14px;
     font-family: CENTURY;
     color: #72640c;
     padding: 0 20px 20px 0;
   }
   main .news .news-list .item .category{
-    margin: 0;
-    min-width: 140px;
-    padding: 0 20px 20px 0;
-  }
-  main .news .news-list .item .category span{
-    background: #ae7c58;
-    color: #FFF;
-    text-align: center;
-    display: inline-block;
-    padding: 5px 20px;
-    font-size: 12px;
-    line-height: 1;
+    display: none;
   }
   main .news .news-list .item .title{
     margin: 0;
     width: 100%;
     color: #202020;
-    font-size: 20px;
+    font-size: 16px;
   }
   main .news .news-list .item a:hover .title{
     color: #606060;
@@ -787,12 +776,12 @@ main .article{
   padding-left: 5%;
   padding-right: 5%;
   overflow: hidden;
-  background-color:rgba(255, 255, 255, 0.7);;
+  background-color:rgba(255, 255, 255, 1);;
 }
 main .article h2{
   padding-top: 50px;
   padding-bottom: 50px;
-  font-size: 25px;
+  font-size: 20px;
   letter-spacing: 10px;
   font-family: CENTURY;
   color: #72640c;
@@ -811,11 +800,11 @@ main .article .changeItemTxt {
 }
 main .article .changeItemTxt time{
   font-family: CENTURY;
-  font-size: 15px;
+  font-size: 13px;
   color: #ae7c58;
 }
 main .article .changeItemTxt p.itemTitle {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.56;
     margin: 0px;
     font-weight: 600;
@@ -863,9 +852,9 @@ p.itemCat {
 }
 
 li.changeItem.gridCard {
-    width: 80%;
+    width: 100%;
     margin-bottom: 30px;
-    margin-left: 10%;
+    margin-left: %;
 }
 li.changeItem.gridCard a {
     display: flex;
@@ -1003,7 +992,7 @@ main .tokoirai p{
   }
   main .tokoirai p{
     font-family: CENTURY;
-    font-size: 15px;
+    font-size: 13px;
     letter-spacing: 0px;
     color: #071C21;
     padding-top: 10px;
@@ -1038,8 +1027,8 @@ main .logo2 .logo3{
   }
   main .logo2 img{
     width: 80%;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 main .about_us{
@@ -1122,14 +1111,14 @@ main .about_us h4{
   main .about_us h2{
     padding-top: 50px;
     padding-bottom: 50px;
-    font-size: 25px;
+    font-size: 20px;
     letter-spacing: 10px;
     font-family: CENTURY;
     color: #daa520;
   }
   main .about_us p{
     font-family: CENTURY;
-    font-size: 18px;
+    font-size: 15px;
     letter-spacing: 2px;
     color: #665a1a;
     padding-top: 10px;
@@ -1213,6 +1202,13 @@ footer{
   height: 100vh;
   text-align: center;
 }
+
+@media screen and (min-width:1068px){
+footer .logo4 img{
+  padding-top: 45vh;
+  width: 40%;
+}
+}
 @media screen and (max-width:1067.98px){
   main .form .c-form {
     width: 100%;
@@ -1228,7 +1224,7 @@ footer{
     display: block;
     margin-bottom: 5px;
     color: #72640c;
-    font-size: 18px;
+    font-size: 14px;
   }
   main .form .c-form__input,
   main .form .c-form__input textarea {
@@ -1236,7 +1232,7 @@ footer{
     padding: 10px;
     border: 1px solid #72640c;
     border-radius: 4px;
-    font-size: 18px;
+    font-size: 14px;
   }
   main .form .c-form__input textarea {
     height: 100px;
@@ -1255,7 +1251,7 @@ footer{
     border: none;
     background-color: #e9bc00;
     color: white;
-    font-size: 18px;
+    font-size: 14px;
     font-family: CENTURY;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -1286,8 +1282,4 @@ footer{
     width: 70%;
   }
 
-}
-footer .logo4 img{
-  padding-top: 45vh;
-  width: 40%;
 }
