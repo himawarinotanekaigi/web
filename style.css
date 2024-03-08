@@ -417,7 +417,7 @@ main{
   main .firstview{
     width: 100%;
     height: 100vh;
-    background-image: url(img/background.jpg);
+    background-image: url(background.jpg);
     background-size: cover;
   }
 }
@@ -426,7 +426,7 @@ main{
     width: 100%;
     height: 100vh;
     position: fixed;
-    background-image: url(img/background.jpg);
+    background-image: url(background.jpg);
     background-size: cover;
     z-index: 0;
   }
